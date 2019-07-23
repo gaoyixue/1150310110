@@ -15,6 +15,10 @@ public class player {
 		history=new String("");
 	}
 	
+	public player() {
+		// TODO Auto-generated constructor stub
+	}
+
 	//切记，私有属性必须设置get方法，否则访问不了
 	public String getPlayerName() {
 		return playerName;
